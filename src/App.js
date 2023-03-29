@@ -3,7 +3,12 @@ import React, { useEffect } from "react";
 import Header from "./Header";
 import Home from "./Home";
 import Login from "./Login.js";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter,
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
 import Checkout from "./components/Checkout.js";
 
 import { useStateValue } from "./StateProvider";

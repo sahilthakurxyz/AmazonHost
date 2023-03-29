@@ -2,7 +2,7 @@
   "name": "amozon-clone",
   "version": "0.1.0",
   "homepage": "https://sahilthakurxyz.github.io/Amazon-org",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
