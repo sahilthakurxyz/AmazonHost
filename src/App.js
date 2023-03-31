@@ -65,6 +65,8 @@ function App() {
               </>
             }
           />
+        </Routes>
+        <Routes>
           <Route
             path="/checkout"
             element={
@@ -76,7 +78,7 @@ function App() {
             }
           />
         </Routes>
-        <Routes>
+        {/* <Routes>
           <Route
             path="/payment"
             element={
@@ -87,7 +89,7 @@ function App() {
               </>
             }
           />
-        </Routes>
+        </Routes> */}
       </Router>
     </div>
   );

@@ -4,7 +4,7 @@ import { useAuth } from "./UserAuthContext";
 const ProtectedRoute = ({ children }) => {
   const { currentuser } = useAuth();
   console.log(currentuser + "in protected");
-  if (!currentuser) {
+  if (currentuser) {
     return <Navigate to="/" />;
   }
   return children;
