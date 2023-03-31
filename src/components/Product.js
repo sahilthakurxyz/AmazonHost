@@ -19,12 +19,12 @@ function Product({ title, price, rating, image, height, id }) {
     });
   };
   return (
-    <div id={id} className="product">
+    <div key={id} className="product">
       <div className="product__info">
-        <p id={id}>{title}</p>
+        <p key={id}>{title}</p>
         <p className="product__price">
           <small>$</small>
-          <strong id={id}>{price}</strong>
+          <strong key={id}>{price}</strong>
         </p>
         <div className="product__rating">
           {Array(rating)
